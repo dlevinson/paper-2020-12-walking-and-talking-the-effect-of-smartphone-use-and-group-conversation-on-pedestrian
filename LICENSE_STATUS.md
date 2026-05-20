@@ -1,6 +1,6 @@
 # License Status: Walking And Talking: The Effect Of Smartphone Use And Group Conversation On Pedestrian Speed
 
-Generated: 2026-05-20 14:46:37 AEST
+Generated: 2026-05-20 15:23:47 AEST
 
 Recorded license/access note from the verified audit row: Article PDF states CC BY 4.0; data license pending. Raw observation workbooks restricted pending privacy/deidentification review.
 
