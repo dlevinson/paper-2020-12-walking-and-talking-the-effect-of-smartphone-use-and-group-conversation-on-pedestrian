@@ -1,0 +1,4 @@
+excluded_path,decision,reason
+/Users/dlev2617/Documents/Papers/~05-Published/TEMA/TeMA - Walking Speeds/Walking and Talking - PLOS One/Data/Martin place.xlsx,not_staged,Martin Place is not one of the two paper sites; the paper uses City Road Bridge and Bay Street.
+source video files,not_found_not_staged,"The paper describes video observation, but source videos were not found or needed for the current archive package."
+drafts letters presentations audit sidecars,not_staged,"Package boundary is paper, data, code, and documentation only."
