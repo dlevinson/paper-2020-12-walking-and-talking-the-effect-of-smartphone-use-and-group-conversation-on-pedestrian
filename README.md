@@ -4,7 +4,9 @@ This package is a private/restricted upload candidate for the paper by L. R. Wal
 
 ## Package status
 
-This package should be uploaded only to a private GitHub repository or a restricted annex until the pedestrian-observation data are reviewed for deidentification. The source workbooks contain exact timestamps and free-text visual descriptions from public-place video observation. The package therefore keeps raw workbooks in a restricted folder and provides privacy-reduced CSV extracts for review.
+This package is a mixed release-boundary package. The public-ready candidate assets are the deidentified CSV extracts, data dictionary, extraction script, documentation, and paper reference. The restricted assets are the source workbooks, which contain exact timestamps and free-text visual descriptions from public-place video observation and should be preserved locally or in a private annex only.
+
+For public GitHub upload, use the deidentified extracts and documentation only. Do not include `data/restricted_source_workbooks/` in a public repository.
 
 ## Contents
 
@@ -27,10 +29,12 @@ Generated: 2026-05-18 01:05:05 AEST
 <!-- package-hardening-status:start -->
 ## Package Hardening Status
 
-Generated: 2026-05-20 15:32:54 AEST
+Generated: 2026-05-21 20:57:23 AEST
 
 - Pipeline: `READY-TO-UPLOAD/PRIVATE`
 - Sidecars added/updated: `PACKAGE_STATUS.md`, `PACKAGE_MANIFEST.csv`, `LICENSE_STATUS.md`.
 - Paper reference copies are for local audit convenience and are not public-upload assets without rights review.
 - Final GitHub upload should use the manifest include statuses and the license-status note.
+- Private release boundary: `human_subjects_observation_with_existing_deidentified_extract`.
+- Public/deidentification path: already_has_public_deidentified_csvs_and_dictionary
 <!-- package-hardening-status:end -->
