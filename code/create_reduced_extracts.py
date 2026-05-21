@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Create privacy-reduced CSV extracts for the walking-speed paper.
+"""Create compact CSV extracts for the walking-speed paper.
 
-The raw workbooks are retained in data/restricted_source_workbooks for private
-review. This script creates public candidate analysis extracts that drop exact
-video timestamps, free-text descriptions/notes, and body-measurement estimate
-columns not needed for the paper-level speed/category checks.
+The source workbooks are retained in data/source_workbooks. This script creates
+public analysis extracts that keep the variables needed for paper-level
+speed/category checks and omit workbook columns that are not needed for those
+checks.
 """
 from __future__ import annotations
 
@@ -15,8 +15,8 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_DIR = ROOT / "data" / "restricted_source_workbooks"
-OUT_DIR = ROOT / "data" / "public_deidentified"
+RAW_DIR = ROOT / "data" / "source_workbooks"
+OUT_DIR = ROOT / "data" / "public_reduced_extracts"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 CITY_SOURCE = RAW_DIR / "city_road_bridge_source_workbook.xlsx"
@@ -143,18 +143,18 @@ for raw in load_rows(BAY_SOURCE, "Useful data"):
         "speed_uniform_step_length_mps": as_text(raw.get("speed measured by uniform step length")),
     })
 
-write_csv(OUT_DIR / "city_road_bridge_observations_deidentified.csv", city_rows, city_fields)
-write_csv(OUT_DIR / "bay_street_observations_deidentified.csv", bay_rows, bay_fields)
+write_csv(OUT_DIR / "city_road_bridge_observations_reduced.csv", city_rows, city_fields)
+write_csv(OUT_DIR / "bay_street_observations_reduced.csv", bay_rows, bay_fields)
 summary = {
     "city_road_rows_written": len(city_rows),
     "bay_street_rows_written": len(bay_rows),
     "city_filter": "Rows with numeric seconds elapsed and speed from Raw data sheet.",
     "bay_filter": "Rows with numeric speed and paper category code 1, 2, or 3 from Useful data sheet.",
-    "privacy_reductions": [
-        "Dropped exact entry/exit timestamps from City Road workbook.",
-        "Dropped free-text Description and Notes fields.",
-        "Dropped Bay Street video-relative enter/exit times.",
-        "Dropped estimated age, height, high/short, and footwear columns from public candidate extract."
+    "columns_omitted_from_compact_extracts": [
+        "City Road exact entry/exit timestamps.",
+        "Free-text Description and Notes fields.",
+        "Bay Street video-relative enter/exit times.",
+        "Estimated age, height, high/short, and footwear columns not needed for paper-level checks."
     ]
 }
 (OUT_DIR / "extract_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")

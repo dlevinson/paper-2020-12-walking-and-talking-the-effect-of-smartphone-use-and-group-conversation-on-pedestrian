@@ -1,0 +1,12 @@
+{
+  "city_road_rows_written": 180,
+  "bay_street_rows_written": 477,
+  "city_filter": "Rows with numeric seconds elapsed and speed from Raw data sheet.",
+  "bay_filter": "Rows with numeric speed and paper category code 1, 2, or 3 from Useful data sheet.",
+  "columns_omitted_from_compact_extracts": [
+    "City Road exact entry/exit timestamps.",
+    "Free-text Description and Notes fields.",
+    "Bay Street video-relative enter/exit times.",
+    "Estimated age, height, high/short, and footwear columns not needed for paper-level checks."
+  ]
+}

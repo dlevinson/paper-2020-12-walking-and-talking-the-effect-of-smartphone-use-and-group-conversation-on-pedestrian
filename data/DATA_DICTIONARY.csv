@@ -1,29 +1,29 @@
 file,column,description
-city_road_bridge_observations_deidentified.csv,record_id,New anonymous sequential record id for this extract.
-city_road_bridge_observations_deidentified.csv,site,Observation site name.
-city_road_bridge_observations_deidentified.csv,observation_date,Date of the observation period.
-city_road_bridge_observations_deidentified.csv,collection_window,"Paper-reported collection window, not individual entry/exit time."
-city_road_bridge_observations_deidentified.csv,seconds_elapsed,"Time to traverse the measured zone, in seconds."
-city_road_bridge_observations_deidentified.csv,speed_mps,Walking speed in metres per second.
-city_road_bridge_observations_deidentified.csv,walking_direction,Direction label recorded in the workbook.
-city_road_bridge_observations_deidentified.csv,distance_m,Measured zone distance in metres.
-city_road_bridge_observations_deidentified.csv,in_group,Y/N group-walking indicator as recorded.
-city_road_bridge_observations_deidentified.csv,using_phone,Y/N phone-use indicator as recorded.
-city_road_bridge_observations_deidentified.csv,texting,Y/N texting indicator as recorded.
-city_road_bridge_observations_deidentified.csv,calling,Y/N calling indicator as recorded.
-city_road_bridge_observations_deidentified.csv,holding_phone,Y/N holding-phone indicator as recorded.
-city_road_bridge_observations_deidentified.csv,gender_recorded,Observer-recorded gender category from the workbook.
-bay_street_observations_deidentified.csv,record_id,New anonymous sequential record id for this extract.
-bay_street_observations_deidentified.csv,site,Observation site name.
-bay_street_observations_deidentified.csv,observation_dates,Paper-reported observation dates.
-bay_street_observations_deidentified.csv,collection_windows,"Paper-reported collection windows, not individual entry/exit time."
-bay_street_observations_deidentified.csv,time_taken_to_cross_s,"Time to traverse the measured zone, in seconds."
-bay_street_observations_deidentified.csv,people_in_zone_count,Number of people in the observed zone at the recorded moment.
-bay_street_observations_deidentified.csv,direction_code,"Workbook direction code: 0 means left, 1 means right."
-bay_street_observations_deidentified.csv,with_phone,Phone-use indicator from the workbook.
-bay_street_observations_deidentified.csv,following_phone_user_or_headway,Follower/headway variable from the workbook.
-bay_street_observations_deidentified.csv,gender_recorded_code,"Workbook gender code: 0=W, 1=M."
-bay_street_observations_deidentified.csv,walking_alone,Walking-alone indicator from the workbook.
-bay_street_observations_deidentified.csv,paper_category_code,"1=uninfluenced, 2=phone user follower, 3=phone user."
-bay_street_observations_deidentified.csv,speed_mps,Walking speed in metres per second.
-bay_street_observations_deidentified.csv,speed_uniform_step_length_mps,Alternative workbook speed estimate using uniform step length.
+city_road_bridge_observations_reduced.csv,record_id,New sequential record id for this extract.
+city_road_bridge_observations_reduced.csv,site,Observation site name.
+city_road_bridge_observations_reduced.csv,observation_date,Date of the observation period.
+city_road_bridge_observations_reduced.csv,collection_window,"Paper-reported collection window, not individual entry/exit time."
+city_road_bridge_observations_reduced.csv,seconds_elapsed,"Time to traverse the measured zone, in seconds."
+city_road_bridge_observations_reduced.csv,speed_mps,Walking speed in metres per second.
+city_road_bridge_observations_reduced.csv,walking_direction,Direction label recorded in the workbook.
+city_road_bridge_observations_reduced.csv,distance_m,Measured zone distance in metres.
+city_road_bridge_observations_reduced.csv,in_group,Y/N group-walking indicator as recorded.
+city_road_bridge_observations_reduced.csv,using_phone,Y/N phone-use indicator as recorded.
+city_road_bridge_observations_reduced.csv,texting,Y/N texting indicator as recorded.
+city_road_bridge_observations_reduced.csv,calling,Y/N calling indicator as recorded.
+city_road_bridge_observations_reduced.csv,holding_phone,Y/N holding-phone indicator as recorded.
+city_road_bridge_observations_reduced.csv,gender_recorded,Observer-recorded gender category from the workbook.
+bay_street_observations_reduced.csv,record_id,New sequential record id for this extract.
+bay_street_observations_reduced.csv,site,Observation site name.
+bay_street_observations_reduced.csv,observation_dates,Paper-reported observation dates.
+bay_street_observations_reduced.csv,collection_windows,"Paper-reported collection windows, not individual entry/exit time."
+bay_street_observations_reduced.csv,time_taken_to_cross_s,"Time to traverse the measured zone, in seconds."
+bay_street_observations_reduced.csv,people_in_zone_count,Number of people in the observed zone at the recorded moment.
+bay_street_observations_reduced.csv,direction_code,"Workbook direction code: 0 means left, 1 means right."
+bay_street_observations_reduced.csv,with_phone,Phone-use indicator from the workbook.
+bay_street_observations_reduced.csv,following_phone_user_or_headway,Follower/headway variable from the workbook.
+bay_street_observations_reduced.csv,gender_recorded_code,"Workbook gender code: 0=W, 1=M."
+bay_street_observations_reduced.csv,walking_alone,Walking-alone indicator from the workbook.
+bay_street_observations_reduced.csv,paper_category_code,"1=uninfluenced, 2=phone user follower, 3=phone user."
+bay_street_observations_reduced.csv,speed_mps,Walking speed in metres per second.
+bay_street_observations_reduced.csv,speed_uniform_step_length_mps,Alternative workbook speed estimate using uniform step length.
