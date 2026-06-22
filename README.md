@@ -1,5 +1,9 @@
 # Walking and Talking: The Effect of Smartphone Use and Group Conversation on Pedestrian Speed
 
+## Contribution
+
+This paper uses observed pedestrian movements at two Sydney sites to distinguish the effects of smartphone use, group conversation, direction, gender, and following behavior on walking speed. It provides direct empirical evidence about how social interaction and mobile-phone attention alter pedestrian movement in everyday urban settings.
+
 This package is a public upload candidate for the paper by L. R. Walsh, T. T. Xian, D. M. Levinson, and H. S. Rayaprolu, published in TeMA: Journal of Land Use, Mobility and Environment, 12(3), 283-294. DOI: https://doi.org/10.6092/1970-9870/6088. A USyd handle is recorded at https://hdl.handle.net/2123/18775.
 
 ## Package status
