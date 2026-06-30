@@ -1,6 +1,6 @@
 # Package Status: Walking And Talking: The Effect Of Smartphone Use And Group Conversation On Pedestrian Speed
 
-Generated: 2026-05-22 07:27:17 AEST
+Generated: 2026-07-01 AEST
 
 ## Audit State
 
@@ -24,6 +24,7 @@ Generated: 2026-05-22 07:27:17 AEST
 
 ## Upload Boundary
 
+- Mixed license boundary: MIT for author-created code and scripts, CC BY 4.0 for repository-created documentation and derived data, and original terms for `paper/` PDFs and any third-party source material.
 - Use `PACKAGE_MANIFEST.csv` as the upload checklist.
 - Include `paper/` PDF reference copies in public paper-package repositories by owner decision; publisher takedown requests can be handled later if they arise.
 - Confirm finality and license before repository creation.
