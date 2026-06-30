@@ -1,5 +1,12 @@
 # Walking and Talking: The Effect of Smartphone Use and Group Conversation on Pedestrian Speed
 
+## License
+
+Author-created code and scripts are licensed under MIT. Repository-created
+documentation and derived data are licensed under CC BY 4.0. The paper PDF
+under `paper/` retains its published article terms, and any third-party source
+material is not relicensed here.
+
 ## Contribution
 
 This paper uses observed pedestrian movements at two Sydney sites to distinguish the effects of smartphone use, group conversation, direction, gender, and following behavior on walking speed. It provides direct empirical evidence about how social interaction and mobile-phone attention alter pedestrian movement in everyday urban settings.
